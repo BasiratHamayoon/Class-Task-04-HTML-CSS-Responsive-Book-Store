@@ -27,3 +27,25 @@
     margin: 0px;
     font-size: 13px;
 }
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(223, 219, 219);
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.navbar div{
+    width: 30%;
+    margin: auto;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(61, 60, 60);
+    font-size: 18px;
+}
+.navbar a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
