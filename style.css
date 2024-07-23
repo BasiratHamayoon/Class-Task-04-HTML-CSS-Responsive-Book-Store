@@ -1,0 +1,29 @@
+.Container{
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(59, 59, 59);
+}
+.icon-bar{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+.icon-bar img{
+    width: 60px;
+    background: none;
+    padding: 0px;
+    margin: 0px;
+}
+.icon-bar h2{
+    font-weight: lighter;
+    font-size: 28px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.icon-bar p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 13px;
+}
