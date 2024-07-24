@@ -164,10 +164,12 @@
     margin-bottom: 10px;
     border-radius: 20px;
     border-bottom: 0px 0px 10px #9c9a9a;
+    cursor: pointer;
 }
 .Images-of-books-container button:hover{
     color: #000000;
     background-color: white;
+    border: 2px solid black;
 }
 .contact-container{
     width: 80%;
