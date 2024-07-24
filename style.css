@@ -44,10 +44,12 @@
     text-decoration: none;
     color: rgb(61, 60, 60);
     font-size: 18px;
+    padding: 5px 10px;
 }
 .navbar a:hover{
-    color: black;
-    border-bottom: 2px solid black;
+    color: white;
+    background-color: #000000;
+    border-radius: 15px;
 }
 .container-content{
     width: 60%;
@@ -69,10 +71,28 @@
     border-radius: 10px;
     border: 1px solid #9c9c9c;
     box-shadow: 0px 0px 5px #9c9a9a;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.container-content i{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 5px;
 }
 .container-content a{
     text-decoration: none;
     color: rgb(141, 136, 136);
+}
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 .container-content-1{
     width: 100%;
